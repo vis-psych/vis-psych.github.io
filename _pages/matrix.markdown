@@ -3,17 +3,17 @@ layout: page
 title: vis-psych Matrix | vis-psych
 permalink: /matrix/
 ---
-<h2>vis-psych Matrix</h2>
+<h2>vis-psych Alignment Matrix</h2>
 
 <h3>Introduction</h3>
 
-<p>This is some text introducing what the vis-psych matrix is.</p>
+<p>This is some text introducing what the vis-psych alignment matrix is.</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
 
 <hr>
 
-<h3>Matrix</h3>
+<h3>Alignment Matrix</h3>
 
 <table id="matrix" style="width:100%; text-align:center;">
   <tr>
