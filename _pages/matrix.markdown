@@ -15,7 +15,7 @@ permalink: /matrix/
 
 <h3>Matrix</h3>
 
-<table style="width:100%; text-align:center;">
+<table id="matrix" style="width:100%; text-align:center;">
   <tr>
 	<th></th>
     <th>A</th>
