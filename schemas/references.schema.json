@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vis-psych.github.io/schemas/references.schema.json",
+  "title": "VisPsych references",
+  "type": "object",
+  "required": ["schemaVersion", "template", "records"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "relationshipId", "paperTitle", "authors", "doi", "studyType", "participants", "visualization", "task", "findings", "evidenceStrength", "curator", "curatorNotes", "reviewedAt", "verificationStatus", "inclusionRationale", "relationshipContribution", "limitations", "transferability"]
+      }
+    }
+  }
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "id": "proximity",
+    "name": "Gestalt proximity",
+    "family": "perception",
+    "definition": "Nearby visual elements tend to be perceived as belonging together."
+  },
+  {
+    "id": "similarity",
+    "name": "Gestalt similarity",
+    "family": "perception",
+    "definition": "Elements sharing visual properties tend to be perceptually grouped."
+  },
+  {
+    "id": "visual-discrimination",
+    "name": "Visual discrimination",
+    "family": "perception",
+    "definition": "The ability to distinguish differences in visual properties such as position, length, colour or shape."
+  },
+  {
+    "id": "spatial-perception",
+    "name": "Spatial perception",
+    "family": "perception",
+    "definition": "Perception and interpretation of spatial relationships between visual elements."
+  },
+  {
+    "id": "visual-search",
+    "name": "Visual search",
+    "family": "attention",
+    "definition": "The process of locating target information among competing visual items."
+  },
+  {
+    "id": "selective-attention",
+    "name": "Selective attention",
+    "family": "attention",
+    "definition": "Prioritising task-relevant information while suppressing competing information."
+  },
+  {
+    "id": "attentional-capture",
+    "name": "Attentional capture",
+    "family": "attention",
+    "definition": "Automatic redirection of attention toward salient or unexpected visual elements."
+  },
+  {
+    "id": "change-blindness",
+    "name": "Change blindness",
+    "family": "attention",
+    "definition": "Failure to notice changes when visual continuity is disrupted or attention is elsewhere."
+  },
+  {
+    "id": "working-memory",
+    "name": "Working memory",
+    "family": "memory",
+    "definition": "Limited-capacity maintenance and manipulation of information during a task."
+  },
+  {
+    "id": "visual-working-memory",
+    "name": "Visual working memory",
+    "family": "memory",
+    "definition": "Temporary maintenance of visual features and spatial relationships."
+  },
+  {
+    "id": "chunking",
+    "name": "Chunking",
+    "family": "memory",
+    "definition": "Grouping elements into meaningful units to reduce memory demands."
+  },
+  {
+    "id": "recognition-recall",
+    "name": "Recognition vs recall",
+    "family": "memory",
+    "definition": "Recognising visible information is often less demanding than retrieving it from memory."
+  },
+  {
+    "id": "cognitive-load",
+    "name": "Cognitive load",
+    "family": "memory",
+    "definition": "The mental resources required to process, integrate and reason about information."
+  },
+  {
+    "id": "mental-models",
+    "name": "Mental models",
+    "family": "cognition",
+    "definition": "Internal representations used to understand systems, concepts or relationships."
+  },
+  {
+    "id": "spatial-reasoning",
+    "name": "Spatial reasoning",
+    "family": "cognition",
+    "definition": "Reasoning using spatial arrangements, distances and relationships."
+  },
+  {
+    "id": "categorisation",
+    "name": "Categorisation",
+    "family": "cognition",
+    "definition": "Assigning items to conceptual groups or classes based on perceived evidence."
+  },
+  {
+    "id": "anchoring",
+    "name": "Anchoring",
+    "family": "judgement",
+    "definition": "Judgements can be biased toward an initial reference point."
+  },
+  {
+    "id": "framing",
+    "name": "Framing",
+    "family": "judgement",
+    "definition": "Equivalent information can produce different judgements depending on how it is presented."
+  },
+  {
+    "id": "risk-perception",
+    "name": "Risk perception",
+    "family": "judgement",
+    "definition": "Subjective interpretation of the magnitude and likelihood of potential outcomes."
+  },
+  {
+    "id": "probability-judgement",
+    "name": "Probability judgement",
+    "family": "judgement",
+    "definition": "Estimation and interpretation of likelihood under uncertainty."
+  },
+  {
+    "id": "preattentive-processing",
+    "name": "Preattentive processing",
+    "family": "perception",
+    "definition": "Rapid detection of certain visual properties, such as colour, orientation, size or motion, before focused attention is engaged."
+  },
+  {
+    "id": "signal-detection",
+    "name": "Signal detection theory",
+    "family": "perception",
+    "definition": "Discrimination of meaningful signals from noise under uncertainty, shaped by both perceptual sensitivity and decision criteria."
+  },
+  {
+    "id": "perceptual-thresholds",
+    "name": "Perceptual thresholds",
+    "family": "perception",
+    "definition": "Weber–Fechner and just-noticeable-difference principles describing how large a visual change must be to become detectable."
+  },
+  {
+    "id": "feature-integration",
+    "name": "Feature integration theory",
+    "family": "attention",
+    "definition": "Basic visual features are processed in parallel, while focused attention helps bind multiple features into coherent objects."
+  },
+  {
+    "id": "broadbent-filter",
+    "name": "Broadbent’s filter model",
+    "family": "attention",
+    "definition": "A limited-capacity attentional filter selects some information for further processing while other competing input is attenuated or excluded."
+  },
+  {
+    "id": "dual-coding",
+    "name": "Dual-coding theory",
+    "family": "memory",
+    "definition": "Information represented through coordinated verbal and visual systems may support comprehension and later retrieval."
+  },
+  {
+    "id": "conceptual-mapping",
+    "name": "Conceptual mapping",
+    "family": "cognition",
+    "definition": "Spatial or visual structures can map abstract conceptual relationships into forms that support reasoning and comparison."
+  },
+  {
+    "id": "embodied-cognition",
+    "name": "Embodied cognition",
+    "family": "cognition",
+    "definition": "Cognition is shaped by bodily action, spatial experience and interaction with the environment."
+  },
+  {
+    "id": "distributed-cognition",
+    "name": "Distributed cognition",
+    "family": "cognition",
+    "definition": "Cognitive activity is distributed across people, representations, tools and the surrounding environment."
+  },
+  {
+    "id": "sensemaking",
+    "name": "Sensemaking theory",
+    "family": "cognition",
+    "definition": "People iteratively organise, interpret and externalise information to construct plausible accounts of complex situations."
+  },
+  {
+    "id": "dual-process",
+    "name": "Dual-process theory",
+    "family": "judgement",
+    "definition": "Judgement can involve fast, intuitive processing and slower, more deliberative reasoning, with different vulnerabilities and strengths."
+  },
+  {
+    "id": "heuristics-biases",
+    "name": "Heuristics and biases",
+    "family": "judgement",
+    "definition": "People use simplifying judgement strategies that can produce systematic effects such as availability, anchoring and framing biases."
+  },
+  {
+    "id": "emotional-design",
+    "name": "Emotional design theory",
+    "family": "affect",
+    "definition": "Aesthetic and affective qualities of an interface can influence engagement, perceived usability and interpretation."
+  },
+  {
+    "id": "affect-cognition",
+    "name": "Affect–cognition interaction",
+    "family": "affect",
+    "definition": "Emotional responses and anticipated feelings can influence attention, interpretation, risk perception and decision-making."
+  },
+  {
+    "id": "elaboration-likelihood",
+    "name": "Elaboration likelihood model",
+    "family": "social-influence",
+    "definition": "Persuasion can follow a central route based on careful evaluation or a peripheral route based on cues requiring less elaboration."
+  },
+  {
+    "id": "attitude-persuasion",
+    "name": "Attitude and behaviour change",
+    "family": "social-influence",
+    "definition": "Message framing, credibility, norms and perceived relevance can influence attitudes, intentions and behaviour."
+  },
+  {
+    "id": "ecological-perception",
+    "name": "Ecological perception",
+    "family": "perception",
+    "definition": "Perception is understood in relation to meaningful environmental structure, context and possibilities for action."
+  },
+  {
+    "id": "multimedia-learning",
+    "name": "Multimedia learning theory",
+    "family": "memory",
+    "definition": "Learning from coordinated words and pictures depends on limited processing capacity, active integration and management of extraneous material."
+  },
+  {
+    "id": "constructivist-learning",
+    "name": "Constructivist learning",
+    "family": "memory",
+    "definition": "Learners actively construct understanding by connecting new representations with prior knowledge, experience and interpretation."
+  },
+  {
+    "id": "external-representations",
+    "name": "External representations",
+    "family": "cognition",
+    "definition": "Visual and interactive representations can store, reorganise and expose information in ways that change the cognitive work required."
+  },
+  {
+    "id": "human-information-processing",
+    "name": "Human information processing",
+    "family": "cognition",
+    "definition": "A broad account of information moving through perceptual, attentional, memory and decision processes with capacity and selection constraints."
+  }
+]

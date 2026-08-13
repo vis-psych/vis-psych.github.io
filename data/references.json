@@ -1,0 +1,2070 @@
+{
+  "schemaVersion": "1.1-mock-demo",
+  "description": "m-Fully populated demonstration evidence. Five relationships have three supporting mock studies; all others have one. Every record is mock data and must be replaced before scholarly use.",
+  "mockDataWarning": "m-All records with an m- prefix are invented interface demonstration data, not real papers or evidence.",
+  "template": {
+    "id": "m-evidence-template",
+    "relationshipId": "m-REPLACE_WITH_RELATIONSHIP_ID",
+    "paperTitle": "m-Replace with verified paper title",
+    "authors": [
+      "m-Replace with verified author"
+    ],
+    "year": "m-Replace with verified year",
+    "doi": "m-Replace with verified DOI",
+    "url": "m-Replace with verified URL",
+    "studyType": "m-experiment | design-study | survey | review | theory | replication | other",
+    "participants": {
+      "count": "m-count",
+      "population": "m-population",
+      "expertise": "m-expertise",
+      "demographics": "m-demographics"
+    },
+    "visualization": {
+      "caseId": "m-case-id",
+      "type": "m-type",
+      "encoding": "m-encoding",
+      "stimulus": "m-stimulus"
+    },
+    "task": {
+      "name": "m-task",
+      "description": "m-task description"
+    },
+    "findings": "m-findings",
+    "evidenceStrength": "m-strong | moderate | limited | conflicting | unassessed",
+    "effectSize": "m-effect size",
+    "replicationStatus": "m-status",
+    "curator": "m-curator",
+    "curatorNotes": "m-notes",
+    "reviewedAt": "m-date",
+    "mockData": true,
+    "sourceType": "m-journal article | conference paper | book | review | other",
+    "verificationStatus": "mock-unverified | partially-verified | verified",
+    "inclusionRationale": "m-Why this source informs the relationship",
+    "relationshipContribution": "m-How the findings support, qualify or challenge the relationship",
+    "limitations": "m-Study and transfer limitations",
+    "transferability": "m-Direct | indirect | context-dependent"
+  },
+  "records": [
+    {
+      "id": "m-evidence-001",
+      "relationshipId": "text-similarity--proximity",
+      "paperTitle": "m-Mock study of Text Similarity and Gestalt proximity",
+      "authors": [
+        "m-Author 1A",
+        "m-Author 1B"
+      ],
+      "year": "m-2020",
+      "doi": "m-10.0000/vispsych.mock.001",
+      "url": "m-https://example.org/mock-evidence/m-evidence-001",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-24",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Spatial distance",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Find similar documents",
+        "description": "m-Participants completed an illustrative find similar documents task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Gestalt proximity showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-01",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--proximity; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-002",
+      "relationshipId": "text-similarity--similarity",
+      "paperTitle": "m-Mock study of Text Similarity and Gestalt similarity",
+      "authors": [
+        "m-Author 2A",
+        "m-Author 2B"
+      ],
+      "year": "m-2021",
+      "doi": "m-10.0000/vispsych.mock.002",
+      "url": "m-https://example.org/mock-evidence/m-evidence-002",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Colour similarity",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Identify clusters",
+        "description": "m-Participants completed an illustrative identify clusters task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Gestalt similarity showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-02",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--similarity; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-003",
+      "relationshipId": "text-similarity--spatial-perception",
+      "paperTitle": "m-Mock study of Text Similarity and Spatial perception",
+      "authors": [
+        "m-Author 3A",
+        "m-Author 3B"
+      ],
+      "year": "m-2022",
+      "doi": "m-10.0000/vispsych.mock.003",
+      "url": "m-https://example.org/mock-evidence/m-evidence-003",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-48",
+        "population": "m-domain practitioners",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Position and distance",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare semantic relationships",
+        "description": "m-Participants completed an illustrative compare semantic relationships task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Spatial perception showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.46 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-03",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--spatial-perception; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-004",
+      "relationshipId": "text-similarity--visual-search",
+      "paperTitle": "m-Mock study of Text Similarity and Visual search",
+      "authors": [
+        "m-Author 4A",
+        "m-Author 4B"
+      ],
+      "year": "m-2023",
+      "doi": "m-10.0000/vispsych.mock.004",
+      "url": "m-https://example.org/mock-evidence/m-evidence-004",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-60",
+        "population": "m-general adult participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Labels and spatial layout",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Locate a document or cluster",
+        "description": "m-Participants completed an illustrative locate a document or cluster task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Visual search showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.55 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-04",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--visual-search; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-005",
+      "relationshipId": "text-similarity--selective-attention",
+      "paperTitle": "m-Mock study of Text Similarity and Selective attention",
+      "authors": [
+        "m-Author 5A",
+        "m-Author 5B"
+      ],
+      "year": "m-2024",
+      "doi": "m-10.0000/vispsych.mock.005",
+      "url": "m-https://example.org/mock-evidence/m-evidence-005",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-72",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Highlighting",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Trace a semantic neighbourhood",
+        "description": "m-Participants completed an illustrative trace a semantic neighbourhood task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Selective attention showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.64 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-05",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--selective-attention; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-006",
+      "relationshipId": "text-similarity--working-memory",
+      "paperTitle": "m-Mock study of Text Similarity and Working memory",
+      "authors": [
+        "m-Author 6A",
+        "m-Author 6B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.006",
+      "url": "m-https://example.org/mock-evidence/m-evidence-006",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-24",
+        "population": "m-domain practitioners",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Multiple encodings and labels",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare multiple documents",
+        "description": "m-Participants completed an illustrative compare multiple documents task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Working memory showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-06",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-007",
+      "relationshipId": "text-similarity--chunking",
+      "paperTitle": "m-Mock study of Text Similarity and Chunking",
+      "authors": [
+        "m-Author 7A",
+        "m-Author 7B"
+      ],
+      "year": "m-2020",
+      "doi": "m-10.0000/vispsych.mock.007",
+      "url": "m-https://example.org/mock-evidence/m-evidence-007",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Cluster boundaries",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Explore a corpus",
+        "description": "m-Participants completed an illustrative explore a corpus task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Chunking showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-07",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--chunking; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-008",
+      "relationshipId": "text-similarity--cognitive-load",
+      "paperTitle": "m-Mock study of Text Similarity and Cognitive load",
+      "authors": [
+        "m-Author 8A",
+        "m-Author 8B"
+      ],
+      "year": "m-2021",
+      "doi": "m-10.0000/vispsych.mock.008",
+      "url": "m-https://example.org/mock-evidence/m-evidence-008",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-48",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Dimensionality reduction plus labels",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Interpret a semantic map",
+        "description": "m-Participants completed an illustrative interpret a semantic map task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Cognitive load showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.46 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-08",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--cognitive-load; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-009",
+      "relationshipId": "text-similarity--mental-models",
+      "paperTitle": "m-Mock study of Text Similarity and Mental models",
+      "authors": [
+        "m-Author 9A",
+        "m-Author 9B"
+      ],
+      "year": "m-2022",
+      "doi": "m-10.0000/vispsych.mock.009",
+      "url": "m-https://example.org/mock-evidence/m-evidence-009",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-60",
+        "population": "m-domain practitioners",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Persistent spatial layout",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Explore a corpus repeatedly",
+        "description": "m-Participants completed an illustrative explore a corpus repeatedly task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Mental models showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.55 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-09",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--mental-models; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-010",
+      "relationshipId": "text-similarity--spatial-reasoning",
+      "paperTitle": "m-Mock study of Text Similarity and Spatial reasoning",
+      "authors": [
+        "m-Author 10A",
+        "m-Author 10B"
+      ],
+      "year": "m-2023",
+      "doi": "m-10.0000/vispsych.mock.010",
+      "url": "m-https://example.org/mock-evidence/m-evidence-010",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-72",
+        "population": "m-general adult participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Spatial distance",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Judge semantic similarity",
+        "description": "m-Participants completed an illustrative judge semantic similarity task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Spatial reasoning showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.64 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--spatial-reasoning; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-011",
+      "relationshipId": "text-similarity--categorisation",
+      "paperTitle": "m-Mock study of Text Similarity and Categorisation",
+      "authors": [
+        "m-Author 11A",
+        "m-Author 11B"
+      ],
+      "year": "m-2024",
+      "doi": "m-10.0000/vispsych.mock.011",
+      "url": "m-https://example.org/mock-evidence/m-evidence-011",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-24",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Clusters and boundaries",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Identify topical groups",
+        "description": "m-Participants completed an illustrative identify topical groups task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Categorisation showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--categorisation; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-012",
+      "relationshipId": "bar-chart-baseline--visual-discrimination",
+      "paperTitle": "m-Mock study of Bar-chart Baseline and Visual discrimination",
+      "authors": [
+        "m-Author 12A",
+        "m-Author 12B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.012",
+      "url": "m-https://example.org/mock-evidence/m-evidence-012",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-36",
+        "population": "m-domain practitioners",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-bar-chart-baseline",
+        "type": "m-Encoding",
+        "encoding": "m-Bar length",
+        "stimulus": "m-Interactive Bar-chart Baseline prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare magnitudes",
+        "description": "m-Participants completed an illustrative compare magnitudes task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Visual discrimination showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-12",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to bar-chart-baseline--visual-discrimination; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-013",
+      "relationshipId": "bar-chart-baseline--anchoring",
+      "paperTitle": "m-Mock study of Bar-chart Baseline and Anchoring",
+      "authors": [
+        "m-Author 13A",
+        "m-Author 13B"
+      ],
+      "year": "m-2020",
+      "doi": "m-10.0000/vispsych.mock.013",
+      "url": "m-https://example.org/mock-evidence/m-evidence-013",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-48",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-bar-chart-baseline",
+        "type": "m-Encoding",
+        "encoding": "m-Axis origin",
+        "stimulus": "m-Interactive Bar-chart Baseline prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Estimate differences",
+        "description": "m-Participants completed an illustrative estimate differences task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Anchoring showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.46 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-01",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to bar-chart-baseline--anchoring; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-014",
+      "relationshipId": "bar-chart-baseline--framing",
+      "paperTitle": "m-Mock study of Bar-chart Baseline and Framing",
+      "authors": [
+        "m-Author 14A",
+        "m-Author 14B"
+      ],
+      "year": "m-2021",
+      "doi": "m-10.0000/vispsych.mock.014",
+      "url": "m-https://example.org/mock-evidence/m-evidence-014",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-60",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-bar-chart-baseline",
+        "type": "m-Encoding",
+        "encoding": "m-Scale and cropping",
+        "stimulus": "m-Interactive Bar-chart Baseline prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Judge importance of differences",
+        "description": "m-Participants completed an illustrative judge importance of differences task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Framing showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.55 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-02",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to bar-chart-baseline--framing; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-015",
+      "relationshipId": "bar-chart-baseline--cognitive-load",
+      "paperTitle": "m-Mock study of Bar-chart Baseline and Cognitive load",
+      "authors": [
+        "m-Author 15A",
+        "m-Author 15B"
+      ],
+      "year": "m-2022",
+      "doi": "m-10.0000/vispsych.mock.015",
+      "url": "m-https://example.org/mock-evidence/m-evidence-015",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-72",
+        "population": "m-domain practitioners",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-bar-chart-baseline",
+        "type": "m-Encoding",
+        "encoding": "m-Nonstandard axis treatment",
+        "stimulus": "m-Interactive Bar-chart Baseline prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Read values",
+        "description": "m-Participants completed an illustrative read values task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Cognitive load showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.64 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-03",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to bar-chart-baseline--cognitive-load; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-016",
+      "relationshipId": "legends-direct-labels--visual-search",
+      "paperTitle": "m-Mock study of Legends vs Direct Labels and Visual search",
+      "authors": [
+        "m-Author 16A",
+        "m-Author 16B"
+      ],
+      "year": "m-2023",
+      "doi": "m-10.0000/vispsych.mock.016",
+      "url": "m-https://example.org/mock-evidence/m-evidence-016",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-24",
+        "population": "m-general adult participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-legends-direct-labels",
+        "type": "m-Layout",
+        "encoding": "m-Separate legend",
+        "stimulus": "m-Interactive Legends vs Direct Labels prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Identify series",
+        "description": "m-Participants completed an illustrative identify series task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Visual search showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-04",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to legends-direct-labels--visual-search; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-017",
+      "relationshipId": "legends-direct-labels--working-memory",
+      "paperTitle": "m-Mock study of Legends vs Direct Labels and Working memory",
+      "authors": [
+        "m-Author 17A",
+        "m-Author 17B"
+      ],
+      "year": "m-2024",
+      "doi": "m-10.0000/vispsych.mock.017",
+      "url": "m-https://example.org/mock-evidence/m-evidence-017",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-36",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-legends-direct-labels",
+        "type": "m-Layout",
+        "encoding": "m-Legend-to-mark mapping",
+        "stimulus": "m-Interactive Legends vs Direct Labels prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Trace values",
+        "description": "m-Participants completed an illustrative trace values task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Working memory showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-05",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to legends-direct-labels--working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-018",
+      "relationshipId": "legends-direct-labels--recognition-recall",
+      "paperTitle": "m-Mock study of Legends vs Direct Labels and Recognition vs recall",
+      "authors": [
+        "m-Author 18A",
+        "m-Author 18B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.018",
+      "url": "m-https://example.org/mock-evidence/m-evidence-018",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-48",
+        "population": "m-domain practitioners",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-legends-direct-labels",
+        "type": "m-Layout",
+        "encoding": "m-Direct labels",
+        "stimulus": "m-Interactive Legends vs Direct Labels prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Identify series",
+        "description": "m-Participants completed an illustrative identify series task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Recognition vs recall showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.46 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-06",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to legends-direct-labels--recognition-recall; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-019",
+      "relationshipId": "legends-direct-labels--cognitive-load",
+      "paperTitle": "m-Mock study of Legends vs Direct Labels and Cognitive load",
+      "authors": [
+        "m-Author 19A",
+        "m-Author 19B"
+      ],
+      "year": "m-2020",
+      "doi": "m-10.0000/vispsych.mock.019",
+      "url": "m-https://example.org/mock-evidence/m-evidence-019",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-60",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-legends-direct-labels",
+        "type": "m-Layout",
+        "encoding": "m-Spatial separation",
+        "stimulus": "m-Interactive Legends vs Direct Labels prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare categories",
+        "description": "m-Participants completed an illustrative compare categories task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Cognitive load showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.55 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-07",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to legends-direct-labels--cognitive-load; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-020",
+      "relationshipId": "uncertainty--probability-judgement",
+      "paperTitle": "m-Mock study of Uncertainty Representation and Probability judgement",
+      "authors": [
+        "m-Author 20A",
+        "m-Author 20B"
+      ],
+      "year": "m-2021",
+      "doi": "m-10.0000/vispsych.mock.020",
+      "url": "m-https://example.org/mock-evidence/m-evidence-020",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-72",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-uncertainty",
+        "type": "m-Representation",
+        "encoding": "m-Probability encoding",
+        "stimulus": "m-Interactive Uncertainty Representation prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Estimate uncertainty",
+        "description": "m-Participants completed an illustrative estimate uncertainty task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Probability judgement showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.64 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-08",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to uncertainty--probability-judgement; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-021",
+      "relationshipId": "uncertainty--risk-perception",
+      "paperTitle": "m-Mock study of Uncertainty Representation and Risk perception",
+      "authors": [
+        "m-Author 21A",
+        "m-Author 21B"
+      ],
+      "year": "m-2022",
+      "doi": "m-10.0000/vispsych.mock.021",
+      "url": "m-https://example.org/mock-evidence/m-evidence-021",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-24",
+        "population": "m-domain practitioners",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-uncertainty",
+        "type": "m-Representation",
+        "encoding": "m-Intervals and probability displays",
+        "stimulus": "m-Interactive Uncertainty Representation prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Assess risk",
+        "description": "m-Participants completed an illustrative assess risk task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Risk perception showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-09",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to uncertainty--risk-perception; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-022",
+      "relationshipId": "uncertainty--framing",
+      "paperTitle": "m-Mock study of Uncertainty Representation and Framing",
+      "authors": [
+        "m-Author 22A",
+        "m-Author 22B"
+      ],
+      "year": "m-2023",
+      "doi": "m-10.0000/vispsych.mock.022",
+      "url": "m-https://example.org/mock-evidence/m-evidence-022",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-general adult participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-uncertainty",
+        "type": "m-Representation",
+        "encoding": "m-Probability framing",
+        "stimulus": "m-Interactive Uncertainty Representation prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Make decisions",
+        "description": "m-Participants completed an illustrative make decisions task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Framing showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to uncertainty--framing; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-023",
+      "relationshipId": "uncertainty--cognitive-load",
+      "paperTitle": "m-Mock study of Uncertainty Representation and Cognitive load",
+      "authors": [
+        "m-Author 23A",
+        "m-Author 23B"
+      ],
+      "year": "m-2024",
+      "doi": "m-10.0000/vispsych.mock.023",
+      "url": "m-https://example.org/mock-evidence/m-evidence-023",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-48",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-uncertainty",
+        "type": "m-Representation",
+        "encoding": "m-Multiple uncertainty encodings",
+        "stimulus": "m-Interactive Uncertainty Representation prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare distributions",
+        "description": "m-Participants completed an illustrative compare distributions task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Cognitive load showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.46 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to uncertainty--cognitive-load; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-024",
+      "relationshipId": "uncertainty--working-memory",
+      "paperTitle": "m-Mock study of Uncertainty Representation and Working memory",
+      "authors": [
+        "m-Author 24A",
+        "m-Author 24B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.024",
+      "url": "m-https://example.org/mock-evidence/m-evidence-024",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-60",
+        "population": "m-domain practitioners",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-uncertainty",
+        "type": "m-Representation",
+        "encoding": "m-Animated ensembles",
+        "stimulus": "m-Interactive Uncertainty Representation prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare possible outcomes",
+        "description": "m-Participants completed an illustrative compare possible outcomes task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Working memory showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.55 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-12",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to uncertainty--working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-025",
+      "relationshipId": "network-layouts--proximity",
+      "paperTitle": "m-Mock study of Network Layouts and Gestalt proximity",
+      "authors": [
+        "m-Author 25A",
+        "m-Author 25B"
+      ],
+      "year": "m-2020",
+      "doi": "m-10.0000/vispsych.mock.025",
+      "url": "m-https://example.org/mock-evidence/m-evidence-025",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-72",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-network-layouts",
+        "type": "m-Representation",
+        "encoding": "m-Node position",
+        "stimulus": "m-Interactive Network Layouts prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Identify communities",
+        "description": "m-Participants completed an illustrative identify communities task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Gestalt proximity showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.64 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-01",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to network-layouts--proximity; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-026",
+      "relationshipId": "network-layouts--visual-search",
+      "paperTitle": "m-Mock study of Network Layouts and Visual search",
+      "authors": [
+        "m-Author 26A",
+        "m-Author 26B"
+      ],
+      "year": "m-2021",
+      "doi": "m-10.0000/vispsych.mock.026",
+      "url": "m-https://example.org/mock-evidence/m-evidence-026",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-24",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-network-layouts",
+        "type": "m-Representation",
+        "encoding": "m-Edges and nodes",
+        "stimulus": "m-Interactive Network Layouts prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Trace paths",
+        "description": "m-Participants completed an illustrative trace paths task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Visual search showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-02",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to network-layouts--visual-search; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-027",
+      "relationshipId": "network-layouts--selective-attention",
+      "paperTitle": "m-Mock study of Network Layouts and Selective attention",
+      "authors": [
+        "m-Author 27A",
+        "m-Author 27B"
+      ],
+      "year": "m-2022",
+      "doi": "m-10.0000/vispsych.mock.027",
+      "url": "m-https://example.org/mock-evidence/m-evidence-027",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-domain practitioners",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-network-layouts",
+        "type": "m-Representation",
+        "encoding": "m-Highlighting",
+        "stimulus": "m-Interactive Network Layouts prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Inspect a neighbourhood",
+        "description": "m-Participants completed an illustrative inspect a neighbourhood task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Selective attention showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-03",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to network-layouts--selective-attention; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-028",
+      "relationshipId": "network-layouts--working-memory",
+      "paperTitle": "m-Mock study of Network Layouts and Working memory",
+      "authors": [
+        "m-Author 28A",
+        "m-Author 28B"
+      ],
+      "year": "m-2023",
+      "doi": "m-10.0000/vispsych.mock.028",
+      "url": "m-https://example.org/mock-evidence/m-evidence-028",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-48",
+        "population": "m-general adult participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-network-layouts",
+        "type": "m-Representation",
+        "encoding": "m-Multi-step path tracing",
+        "stimulus": "m-Interactive Network Layouts prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Trace paths",
+        "description": "m-Participants completed an illustrative trace paths task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Working memory showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.46 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-04",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to network-layouts--working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-029",
+      "relationshipId": "network-layouts--mental-models",
+      "paperTitle": "m-Mock study of Network Layouts and Mental models",
+      "authors": [
+        "m-Author 29A",
+        "m-Author 29B"
+      ],
+      "year": "m-2024",
+      "doi": "m-10.0000/vispsych.mock.029",
+      "url": "m-https://example.org/mock-evidence/m-evidence-029",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-60",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-network-layouts",
+        "type": "m-Representation",
+        "encoding": "m-Stable layout",
+        "stimulus": "m-Interactive Network Layouts prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Repeated exploration",
+        "description": "m-Participants completed an illustrative repeated exploration task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Mental models showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.55 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-05",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to network-layouts--mental-models; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-030",
+      "relationshipId": "animation--change-blindness",
+      "paperTitle": "m-Mock study of Animation & Transition and Change blindness",
+      "authors": [
+        "m-Author 30A",
+        "m-Author 30B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.030",
+      "url": "m-https://example.org/mock-evidence/m-evidence-030",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-72",
+        "population": "m-domain practitioners",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-animation",
+        "type": "m-Interaction",
+        "encoding": "m-Animated state change",
+        "stimulus": "m-Interactive Animation & Transition prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare states",
+        "description": "m-Participants completed an illustrative compare states task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Change blindness showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.64 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-06",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to animation--change-blindness; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-031",
+      "relationshipId": "animation--attentional-capture",
+      "paperTitle": "m-Mock study of Animation & Transition and Attentional capture",
+      "authors": [
+        "m-Author 31A",
+        "m-Author 31B"
+      ],
+      "year": "m-2020",
+      "doi": "m-10.0000/vispsych.mock.031",
+      "url": "m-https://example.org/mock-evidence/m-evidence-031",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-24",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-animation",
+        "type": "m-Interaction",
+        "encoding": "m-Motion",
+        "stimulus": "m-Interactive Animation & Transition prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Track change",
+        "description": "m-Participants completed an illustrative track change task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Attentional capture showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-07",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to animation--attentional-capture; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-032",
+      "relationshipId": "animation--visual-working-memory",
+      "paperTitle": "m-Mock study of Animation & Transition and Visual working memory",
+      "authors": [
+        "m-Author 32A",
+        "m-Author 32B"
+      ],
+      "year": "m-2021",
+      "doi": "m-10.0000/vispsych.mock.032",
+      "url": "m-https://example.org/mock-evidence/m-evidence-032",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-36",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-animation",
+        "type": "m-Interaction",
+        "encoding": "m-Transient states",
+        "stimulus": "m-Interactive Animation & Transition prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare states",
+        "description": "m-Participants completed an illustrative compare states task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Visual working memory showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-08",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to animation--visual-working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-033",
+      "relationshipId": "animation--mental-models",
+      "paperTitle": "m-Mock study of Animation & Transition and Mental models",
+      "authors": [
+        "m-Author 33A",
+        "m-Author 33B"
+      ],
+      "year": "m-2022",
+      "doi": "m-10.0000/vispsych.mock.033",
+      "url": "m-https://example.org/mock-evidence/m-evidence-033",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-48",
+        "population": "m-domain practitioners",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-animation",
+        "type": "m-Interaction",
+        "encoding": "m-Object constancy",
+        "stimulus": "m-Interactive Animation & Transition prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Understand transitions",
+        "description": "m-Participants completed an illustrative understand transitions task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Mental models showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.46 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-09",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to animation--mental-models; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-034",
+      "relationshipId": "colour-encoding--visual-discrimination",
+      "paperTitle": "m-Mock study of Colour Encoding and Visual discrimination",
+      "authors": [
+        "m-Author 34A",
+        "m-Author 34B"
+      ],
+      "year": "m-2023",
+      "doi": "m-10.0000/vispsych.mock.034",
+      "url": "m-https://example.org/mock-evidence/m-evidence-034",
+      "studyType": "m-design study",
+      "participants": {
+        "count": "m-60",
+        "population": "m-general adult participants",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-colour-encoding",
+        "type": "m-Encoding",
+        "encoding": "m-Colour differences",
+        "stimulus": "m-Interactive Colour Encoding prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Identify categories",
+        "description": "m-Participants completed an illustrative identify categories task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Visual discrimination showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.55 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to colour-encoding--visual-discrimination; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-035",
+      "relationshipId": "colour-encoding--similarity",
+      "paperTitle": "m-Mock study of Colour Encoding and Gestalt similarity",
+      "authors": [
+        "m-Author 35A",
+        "m-Author 35B"
+      ],
+      "year": "m-2024",
+      "doi": "m-10.0000/vispsych.mock.035",
+      "url": "m-https://example.org/mock-evidence/m-evidence-035",
+      "studyType": "m-mixed-methods study",
+      "participants": {
+        "count": "m-72",
+        "population": "m-visualization-literate participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-colour-encoding",
+        "type": "m-Encoding",
+        "encoding": "m-Shared colour",
+        "stimulus": "m-Interactive Colour Encoding prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare groups",
+        "description": "m-Participants completed an illustrative compare groups task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Gestalt similarity showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-strong",
+      "effectSize": "m-0.64 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to colour-encoding--similarity; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-036",
+      "relationshipId": "colour-encoding--selective-attention",
+      "paperTitle": "m-Mock study of Colour Encoding and Selective attention",
+      "authors": [
+        "m-Author 36A",
+        "m-Author 36B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.036",
+      "url": "m-https://example.org/mock-evidence/m-evidence-036",
+      "studyType": "m-online experiment",
+      "participants": {
+        "count": "m-24",
+        "population": "m-domain practitioners",
+        "expertise": "m-intermediate expertise",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-colour-encoding",
+        "type": "m-Encoding",
+        "encoding": "m-Contrast",
+        "stimulus": "m-Interactive Colour Encoding prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Detect patterns",
+        "description": "m-Participants completed an illustrative detect patterns task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Selective attention showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-limited",
+      "effectSize": "m-0.28 illustrative standardised effect",
+      "replicationStatus": "m-unassessed mock record",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-12",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to colour-encoding--selective-attention; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-037",
+      "relationshipId": "colour-encoding--working-memory",
+      "paperTitle": "m-Mock study of Colour Encoding and Working memory",
+      "authors": [
+        "m-Author 37A",
+        "m-Author 37B"
+      ],
+      "year": "m-2020",
+      "doi": "m-10.0000/vispsych.mock.037",
+      "url": "m-https://example.org/mock-evidence/m-evidence-037",
+      "studyType": "m-controlled experiment",
+      "participants": {
+        "count": "m-36",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed experience",
+        "demographics": "m-Illustrative balanced demographic sample; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-colour-encoding",
+        "type": "m-Encoding",
+        "encoding": "m-Large categorical palette",
+        "stimulus": "m-Interactive Colour Encoding prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Identify categories",
+        "description": "m-Participants completed an illustrative identify categories task using two design conditions."
+      },
+      "findings": "m-Mock finding: the condition aligned with Working memory showed improved task performance and lower reported effort. This is demonstration data, not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.37 illustrative standardised effect",
+      "replicationStatus": "m-mock replication planned",
+      "curator": "m-VisPsych demo curator",
+      "curatorNotes": "m-Replace this record with verified bibliographic and methodological data; check DOI, sample, task and findings against the source paper.",
+      "reviewedAt": "m-2026-08-01",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to colour-encoding--working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-text-similarity--proximity-study-2",
+      "relationshipId": "text-similarity--proximity",
+      "paperTitle": "m-Mock supporting study 2 for text-similarity--proximity",
+      "authors": [
+        "m-Supporting Author 2A",
+        "m-Supporting Author 2B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.text-similarity--proximity.2",
+      "url": "m-https://example.org/mock-evidence/m-evidence-text-similarity--proximity-study-2",
+      "studyType": "m-controlled replication",
+      "participants": {
+        "count": "m-72",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed visualization experience",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Spatial distance",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Find similar documents",
+        "description": "m-Replication task testing find similar documents under controlled display conditions."
+      },
+      "findings": "m-Mock finding: the replication showed a similar directional pattern with a smaller illustrative effect. This is not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.34 illustrative standardised effect",
+      "replicationStatus": "m-mock replication completed",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 2 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--proximity; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-text-similarity--proximity-study-3",
+      "relationshipId": "text-similarity--proximity",
+      "paperTitle": "m-Mock supporting study 3 for text-similarity--proximity",
+      "authors": [
+        "m-Supporting Author 3A",
+        "m-Supporting Author 3B"
+      ],
+      "year": "m-2026",
+      "doi": "m-10.0000/vispsych.mock.text-similarity--proximity.3",
+      "url": "m-https://example.org/mock-evidence/m-evidence-text-similarity--proximity-study-3",
+      "studyType": "m-mixed-methods follow-up study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-domain practitioners",
+        "expertise": "m-advanced domain expertise",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Spatial distance",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Find similar documents",
+        "description": "m-Follow-up task examining find similar documents in a domain-oriented scenario."
+      },
+      "findings": "m-Mock finding: practitioner observations qualified the relationship and identified task-dependent boundary conditions. This is not a scholarly claim.",
+      "evidenceStrength": "m-limited-but-complementary",
+      "effectSize": "m-not estimated in qualitative mock study",
+      "replicationStatus": "m-mock qualitative triangulation",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 3 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--proximity; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-text-similarity--visual-search-study-2",
+      "relationshipId": "text-similarity--visual-search",
+      "paperTitle": "m-Mock supporting study 2 for text-similarity--visual-search",
+      "authors": [
+        "m-Supporting Author 2A",
+        "m-Supporting Author 2B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.text-similarity--visual-search.2",
+      "url": "m-https://example.org/mock-evidence/m-evidence-text-similarity--visual-search-study-2",
+      "studyType": "m-controlled replication",
+      "participants": {
+        "count": "m-72",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed visualization experience",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Labels and spatial layout",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Locate a document or cluster",
+        "description": "m-Replication task testing locate a document or cluster under controlled display conditions."
+      },
+      "findings": "m-Mock finding: the replication showed a similar directional pattern with a smaller illustrative effect. This is not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.34 illustrative standardised effect",
+      "replicationStatus": "m-mock replication completed",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 2 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--visual-search; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-text-similarity--visual-search-study-3",
+      "relationshipId": "text-similarity--visual-search",
+      "paperTitle": "m-Mock supporting study 3 for text-similarity--visual-search",
+      "authors": [
+        "m-Supporting Author 3A",
+        "m-Supporting Author 3B"
+      ],
+      "year": "m-2026",
+      "doi": "m-10.0000/vispsych.mock.text-similarity--visual-search.3",
+      "url": "m-https://example.org/mock-evidence/m-evidence-text-similarity--visual-search-study-3",
+      "studyType": "m-mixed-methods follow-up study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-domain practitioners",
+        "expertise": "m-advanced domain expertise",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-text-similarity",
+        "type": "m-Representation",
+        "encoding": "m-Labels and spatial layout",
+        "stimulus": "m-Interactive Text Similarity prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Locate a document or cluster",
+        "description": "m-Follow-up task examining locate a document or cluster in a domain-oriented scenario."
+      },
+      "findings": "m-Mock finding: practitioner observations qualified the relationship and identified task-dependent boundary conditions. This is not a scholarly claim.",
+      "evidenceStrength": "m-limited-but-complementary",
+      "effectSize": "m-not estimated in qualitative mock study",
+      "replicationStatus": "m-mock qualitative triangulation",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 3 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to text-similarity--visual-search; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-bar-chart-baseline--visual-discrimination-study-2",
+      "relationshipId": "bar-chart-baseline--visual-discrimination",
+      "paperTitle": "m-Mock supporting study 2 for bar-chart-baseline--visual-discrimination",
+      "authors": [
+        "m-Supporting Author 2A",
+        "m-Supporting Author 2B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.bar-chart-baseline--visual-discrimination.2",
+      "url": "m-https://example.org/mock-evidence/m-evidence-bar-chart-baseline--visual-discrimination-study-2",
+      "studyType": "m-controlled replication",
+      "participants": {
+        "count": "m-72",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed visualization experience",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-bar-chart-baseline",
+        "type": "m-Encoding",
+        "encoding": "m-Bar length",
+        "stimulus": "m-Interactive Bar-chart Baseline prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare magnitudes",
+        "description": "m-Replication task testing compare magnitudes under controlled display conditions."
+      },
+      "findings": "m-Mock finding: the replication showed a similar directional pattern with a smaller illustrative effect. This is not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.34 illustrative standardised effect",
+      "replicationStatus": "m-mock replication completed",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 2 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to bar-chart-baseline--visual-discrimination; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-bar-chart-baseline--visual-discrimination-study-3",
+      "relationshipId": "bar-chart-baseline--visual-discrimination",
+      "paperTitle": "m-Mock supporting study 3 for bar-chart-baseline--visual-discrimination",
+      "authors": [
+        "m-Supporting Author 3A",
+        "m-Supporting Author 3B"
+      ],
+      "year": "m-2026",
+      "doi": "m-10.0000/vispsych.mock.bar-chart-baseline--visual-discrimination.3",
+      "url": "m-https://example.org/mock-evidence/m-evidence-bar-chart-baseline--visual-discrimination-study-3",
+      "studyType": "m-mixed-methods follow-up study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-domain practitioners",
+        "expertise": "m-advanced domain expertise",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-bar-chart-baseline",
+        "type": "m-Encoding",
+        "encoding": "m-Bar length",
+        "stimulus": "m-Interactive Bar-chart Baseline prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Compare magnitudes",
+        "description": "m-Follow-up task examining compare magnitudes in a domain-oriented scenario."
+      },
+      "findings": "m-Mock finding: practitioner observations qualified the relationship and identified task-dependent boundary conditions. This is not a scholarly claim.",
+      "evidenceStrength": "m-limited-but-complementary",
+      "effectSize": "m-not estimated in qualitative mock study",
+      "replicationStatus": "m-mock qualitative triangulation",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 3 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to bar-chart-baseline--visual-discrimination; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-legends-direct-labels--working-memory-study-2",
+      "relationshipId": "legends-direct-labels--working-memory",
+      "paperTitle": "m-Mock supporting study 2 for legends-direct-labels--working-memory",
+      "authors": [
+        "m-Supporting Author 2A",
+        "m-Supporting Author 2B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.legends-direct-labels--working-memory.2",
+      "url": "m-https://example.org/mock-evidence/m-evidence-legends-direct-labels--working-memory-study-2",
+      "studyType": "m-controlled replication",
+      "participants": {
+        "count": "m-72",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed visualization experience",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-legends-direct-labels",
+        "type": "m-Layout",
+        "encoding": "m-Legend-to-mark mapping",
+        "stimulus": "m-Interactive Legends vs Direct Labels prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Trace values",
+        "description": "m-Replication task testing trace values under controlled display conditions."
+      },
+      "findings": "m-Mock finding: the replication showed a similar directional pattern with a smaller illustrative effect. This is not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.34 illustrative standardised effect",
+      "replicationStatus": "m-mock replication completed",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 2 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to legends-direct-labels--working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-legends-direct-labels--working-memory-study-3",
+      "relationshipId": "legends-direct-labels--working-memory",
+      "paperTitle": "m-Mock supporting study 3 for legends-direct-labels--working-memory",
+      "authors": [
+        "m-Supporting Author 3A",
+        "m-Supporting Author 3B"
+      ],
+      "year": "m-2026",
+      "doi": "m-10.0000/vispsych.mock.legends-direct-labels--working-memory.3",
+      "url": "m-https://example.org/mock-evidence/m-evidence-legends-direct-labels--working-memory-study-3",
+      "studyType": "m-mixed-methods follow-up study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-domain practitioners",
+        "expertise": "m-advanced domain expertise",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-legends-direct-labels",
+        "type": "m-Layout",
+        "encoding": "m-Legend-to-mark mapping",
+        "stimulus": "m-Interactive Legends vs Direct Labels prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Trace values",
+        "description": "m-Follow-up task examining trace values in a domain-oriented scenario."
+      },
+      "findings": "m-Mock finding: practitioner observations qualified the relationship and identified task-dependent boundary conditions. This is not a scholarly claim.",
+      "evidenceStrength": "m-limited-but-complementary",
+      "effectSize": "m-not estimated in qualitative mock study",
+      "replicationStatus": "m-mock qualitative triangulation",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 3 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to legends-direct-labels--working-memory; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-uncertainty--framing-study-2",
+      "relationshipId": "uncertainty--framing",
+      "paperTitle": "m-Mock supporting study 2 for uncertainty--framing",
+      "authors": [
+        "m-Supporting Author 2A",
+        "m-Supporting Author 2B"
+      ],
+      "year": "m-2025",
+      "doi": "m-10.0000/vispsych.mock.uncertainty--framing.2",
+      "url": "m-https://example.org/mock-evidence/m-evidence-uncertainty--framing-study-2",
+      "studyType": "m-controlled replication",
+      "participants": {
+        "count": "m-72",
+        "population": "m-general adult participants",
+        "expertise": "m-mixed visualization experience",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-uncertainty",
+        "type": "m-Representation",
+        "encoding": "m-Probability framing",
+        "stimulus": "m-Interactive Uncertainty Representation prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Make decisions",
+        "description": "m-Replication task testing make decisions under controlled display conditions."
+      },
+      "findings": "m-Mock finding: the replication showed a similar directional pattern with a smaller illustrative effect. This is not a scholarly claim.",
+      "evidenceStrength": "m-moderate",
+      "effectSize": "m-0.34 illustrative standardised effect",
+      "replicationStatus": "m-mock replication completed",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 2 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-10",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to uncertainty--framing; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    },
+    {
+      "id": "m-evidence-uncertainty--framing-study-3",
+      "relationshipId": "uncertainty--framing",
+      "paperTitle": "m-Mock supporting study 3 for uncertainty--framing",
+      "authors": [
+        "m-Supporting Author 3A",
+        "m-Supporting Author 3B"
+      ],
+      "year": "m-2026",
+      "doi": "m-10.0000/vispsych.mock.uncertainty--framing.3",
+      "url": "m-https://example.org/mock-evidence/m-evidence-uncertainty--framing-study-3",
+      "studyType": "m-mixed-methods follow-up study",
+      "participants": {
+        "count": "m-36",
+        "population": "m-domain practitioners",
+        "expertise": "m-advanced domain expertise",
+        "demographics": "m-Illustrative mock demographic profile; not real participant data"
+      },
+      "visualization": {
+        "caseId": "m-uncertainty",
+        "type": "m-Representation",
+        "encoding": "m-Probability framing",
+        "stimulus": "m-Interactive Uncertainty Representation prototype with controlled variants"
+      },
+      "task": {
+        "name": "m-Make decisions",
+        "description": "m-Follow-up task examining make decisions in a domain-oriented scenario."
+      },
+      "findings": "m-Mock finding: practitioner observations qualified the relationship and identified task-dependent boundary conditions. This is not a scholarly claim.",
+      "evidenceStrength": "m-limited-but-complementary",
+      "effectSize": "m-not estimated in qualitative mock study",
+      "replicationStatus": "m-mock qualitative triangulation",
+      "curator": "m-VisPsych supporting-evidence curator",
+      "curatorNotes": "m-Supporting mock record 3 demonstrates several studies attached to one relationship; replace with verified evidence.",
+      "reviewedAt": "m-2026-08-11",
+      "mockData": true,
+      "sourceType": "m-scholarly study demonstration",
+      "verificationStatus": "mock-unverified",
+      "inclusionRationale": "m-Included to demonstrate how evidence could be connected to uncertainty--framing; this is not a real inclusion decision.",
+      "relationshipContribution": "m-Demonstrates a placeholder account of how findings may support or qualify the relationship claim.",
+      "limitations": "m-Invented study and metadata; no scholarly inference may be drawn until the source is replaced and verified.",
+      "transferability": "m-unassessed demonstration"
+    }
+  ]
+}

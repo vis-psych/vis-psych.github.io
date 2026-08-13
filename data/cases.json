@@ -1,0 +1,318 @@
+[
+  {
+    "id": "text-similarity",
+    "name": "Text Similarity",
+    "family": "Text & Language",
+    "type": "Representation",
+    "description": "Visual representations of semantic similarity or distance between textual entities such as documents, passages or concepts.",
+    "designFeatures": [
+      "Spatial distance",
+      "Position",
+      "Colour similarity",
+      "Cluster boundaries",
+      "Connection lines",
+      "Labels",
+      "Dimensionality reduction"
+    ],
+    "tasks": [
+      "Find similar documents",
+      "Identify clusters",
+      "Compare semantic relationships",
+      "Identify outliers",
+      "Explore a corpus"
+    ],
+    "contexts": [
+      "Corpus size",
+      "Projection quality",
+      "User familiarity with the corpus",
+      "Label density"
+    ]
+  },
+  {
+    "id": "bar-chart-baseline",
+    "name": "Bar-chart Baseline",
+    "family": "Quantitative Comparison",
+    "type": "Encoding",
+    "description": "How the axis origin and quantitative scale affect perception and comparison of bar lengths.",
+    "designFeatures": [
+      "Bar length",
+      "Axis origin",
+      "Scale",
+      "Reference line"
+    ],
+    "tasks": [
+      "Compare magnitudes",
+      "Estimate differences",
+      "Rank values"
+    ],
+    "contexts": [
+      "Data range",
+      "Display size",
+      "Task precision"
+    ]
+  },
+  {
+    "id": "legends-direct-labels",
+    "name": "Legends vs Direct Labels",
+    "family": "Layout & Organisation",
+    "type": "Layout",
+    "description": "The trade-off between separate legends and labels placed directly beside the marks they identify.",
+    "designFeatures": [
+      "Legend placement",
+      "Direct labels",
+      "Colour mapping",
+      "Leader lines"
+    ],
+    "tasks": [
+      "Identify series",
+      "Compare categories",
+      "Trace values"
+    ],
+    "contexts": [
+      "Number of series",
+      "Label density",
+      "Available space"
+    ]
+  },
+  {
+    "id": "uncertainty",
+    "name": "Uncertainty Representation",
+    "family": "Uncertainty & Decision",
+    "type": "Representation",
+    "description": "Visual communication of uncertainty, variability and probability around data values or model outputs.",
+    "designFeatures": [
+      "Intervals",
+      "Ensembles",
+      "Opacity",
+      "Probability encoding",
+      "Annotations"
+    ],
+    "tasks": [
+      "Estimate uncertainty",
+      "Compare distributions",
+      "Assess risk",
+      "Make decisions"
+    ],
+    "contexts": [
+      "Numeracy",
+      "Domain stakes",
+      "Prior beliefs",
+      "Decision context"
+    ]
+  },
+  {
+    "id": "network-layouts",
+    "name": "Network Layouts",
+    "family": "Networks",
+    "type": "Representation",
+    "description": "Node-link representations in which topology, spatial layout, grouping and edge structure support relational analysis.",
+    "designFeatures": [
+      "Node position",
+      "Edge routing",
+      "Clustering",
+      "Colour",
+      "Size"
+    ],
+    "tasks": [
+      "Trace paths",
+      "Identify communities",
+      "Find hubs",
+      "Compare neighbourhoods"
+    ],
+    "contexts": [
+      "Graph size",
+      "Density",
+      "Layout stability",
+      "Domain familiarity"
+    ]
+  },
+  {
+    "id": "animation",
+    "name": "Animation & Transition",
+    "family": "Interaction",
+    "type": "Interaction",
+    "description": "Use of animated change or transitions to communicate temporal evolution, state changes or correspondence.",
+    "designFeatures": [
+      "Motion",
+      "Transition duration",
+      "Object constancy",
+      "Trails",
+      "Playback controls"
+    ],
+    "tasks": [
+      "Track change",
+      "Compare states",
+      "Follow objects",
+      "Understand transitions"
+    ],
+    "contexts": [
+      "Transition speed",
+      "Number of objects",
+      "User control"
+    ]
+  },
+  {
+    "id": "colour-encoding",
+    "name": "Colour Encoding",
+    "family": "Visual Encoding",
+    "type": "Encoding",
+    "description": "Use of hue, luminance and saturation to encode category, order or magnitude.",
+    "designFeatures": [
+      "Hue",
+      "Luminance",
+      "Saturation",
+      "Legend",
+      "Contrast"
+    ],
+    "tasks": [
+      "Identify categories",
+      "Compare groups",
+      "Detect patterns"
+    ],
+    "contexts": [
+      "Background",
+      "Display conditions",
+      "Number of categories"
+    ]
+  },
+  {
+    "id": "topic-modelling-map",
+    "name": "Topic Modelling Map",
+    "family": "Text & Language",
+    "type": "Representation",
+    "description": "Spatial and cluster-based views of topics and their relationships within document collections.",
+    "designFeatures": ["Topic position", "Cluster regions", "Labels", "Distance"],
+    "tasks": ["Compare topics", "Explore a corpus", "Identify overlapping themes"],
+    "contexts": ["Model quality", "Topic count", "Label interpretability"]
+  },
+  {
+    "id": "word-frequency-display",
+    "name": "Word-frequency Display",
+    "family": "Text & Language",
+    "type": "Encoding",
+    "description": "Visual encodings of term frequency using aligned bars, size, position or compact text layouts.",
+    "designFeatures": ["Text size", "Bar length", "Ordering", "Colour"],
+    "tasks": ["Find frequent terms", "Compare frequencies", "Identify vocabulary"],
+    "contexts": ["Vocabulary size", "Frequency distribution", "Reading order"]
+  },
+  {
+    "id": "dot-plot-comparison",
+    "name": "Dot-plot Comparison",
+    "family": "Quantitative Comparison",
+    "type": "Encoding",
+    "description": "Aligned dot positions used to compare values, ranks and differences across categories.",
+    "designFeatures": ["Aligned position", "Reference line", "Ordering", "Dot size"],
+    "tasks": ["Compare magnitudes", "Rank categories", "Estimate differences"],
+    "contexts": ["Value range", "Category count", "Required precision"]
+  },
+  {
+    "id": "small-multiple-comparison",
+    "name": "Small-multiple Comparison",
+    "family": "Quantitative Comparison",
+    "type": "Layout",
+    "description": "Repeated aligned panels supporting comparison across groups, places or time periods.",
+    "designFeatures": ["Shared scales", "Panel alignment", "Repetition", "Ordering"],
+    "tasks": ["Compare groups", "Detect patterns", "Identify exceptions"],
+    "contexts": ["Panel count", "Screen size", "Scale consistency"]
+  },
+  {
+    "id": "small-multiples-layout",
+    "name": "Small-multiples Layout",
+    "family": "Layout & Organisation",
+    "type": "Layout",
+    "description": "Organisation of repeated views into a stable grid for scanning and comparison.",
+    "designFeatures": ["Grid alignment", "Panel order", "Shared axes", "Whitespace"],
+    "tasks": ["Scan panels", "Compare patterns", "Locate anomalies"],
+    "contexts": ["Display width", "Panel density", "Reading direction"]
+  },
+  {
+    "id": "dashboard-grouping",
+    "name": "Dashboard Grouping",
+    "family": "Layout & Organisation",
+    "type": "Layout",
+    "description": "Grouping and prioritisation of coordinated dashboard components and controls.",
+    "designFeatures": ["Section boundaries", "Proximity", "Hierarchy", "Whitespace"],
+    "tasks": ["Monitor indicators", "Navigate views", "Integrate evidence"],
+    "contexts": ["Dashboard complexity", "User role", "Display size"]
+  },
+  {
+    "id": "probability-icon-arrays",
+    "name": "Probability Icon Arrays",
+    "family": "Uncertainty & Decision",
+    "type": "Representation",
+    "description": "Repeated icons representing frequencies or probabilities for risk communication and comparison.",
+    "designFeatures": ["Icon count", "Grouping", "Colour", "Denominator"],
+    "tasks": ["Estimate probability", "Compare risks", "Make decisions"],
+    "contexts": ["Numeracy", "Icon arrangement", "Risk framing"]
+  },
+  {
+    "id": "ensemble-forecast",
+    "name": "Ensemble Forecast",
+    "family": "Uncertainty & Decision",
+    "type": "Representation",
+    "description": "Multiple simulated trajectories showing possible futures and the spread of model outcomes.",
+    "designFeatures": ["Multiple trajectories", "Opacity", "Time", "Reference outcome"],
+    "tasks": ["Assess variability", "Compare scenarios", "Judge risk"],
+    "contexts": ["Forecast horizon", "Ensemble size", "Decision stakes"]
+  },
+  {
+    "id": "adjacency-matrix",
+    "name": "Adjacency Matrix",
+    "family": "Networks",
+    "type": "Representation",
+    "description": "Matrix-based encoding of graph connections using ordered rows and columns.",
+    "designFeatures": ["Cell position", "Node ordering", "Colour", "Symmetry"],
+    "tasks": ["Identify communities", "Compare connectivity", "Find dense regions"],
+    "contexts": ["Graph size", "Ordering method", "Network density"]
+  },
+  {
+    "id": "flow-network",
+    "name": "Flow Network",
+    "family": "Networks",
+    "type": "Representation",
+    "description": "Directed and weighted links showing movement, transfer or dependency through a network.",
+    "designFeatures": ["Link width", "Direction", "Node position", "Colour"],
+    "tasks": ["Trace flow", "Find bottlenecks", "Compare pathways"],
+    "contexts": ["Network complexity", "Flow direction", "Edge overlap"]
+  },
+  {
+    "id": "brushing-linking",
+    "name": "Brushing and Linking",
+    "family": "Interaction",
+    "type": "Interaction",
+    "description": "Selection in one coordinated view highlights corresponding items in other views.",
+    "designFeatures": ["Selection", "Highlighting", "Coordinated views", "Persistent state"],
+    "tasks": ["Trace correspondence", "Compare subsets", "Explore relationships"],
+    "contexts": ["View count", "Selection size", "Interaction latency"]
+  },
+  {
+    "id": "zoom-filter",
+    "name": "Zoom and Filter",
+    "family": "Interaction",
+    "type": "Interaction",
+    "description": "Interactive control of scale and visible subsets to move between overview and detail.",
+    "designFeatures": ["Zoom", "Filtering", "Overview context", "Animated transition"],
+    "tasks": ["Inspect detail", "Reduce clutter", "Locate patterns"],
+    "contexts": ["Dataset size", "Navigation history", "Transition speed"]
+  },
+  {
+    "id": "size-encoding",
+    "name": "Size Encoding",
+    "family": "Visual Encoding",
+    "type": "Encoding",
+    "description": "Encoding quantities using symbol area, length or volume across marks.",
+    "designFeatures": ["Area", "Length", "Scale", "Reference marks"],
+    "tasks": ["Estimate magnitude", "Compare values", "Find extremes"],
+    "contexts": ["Value range", "Mark overlap", "Perceptual precision"]
+  },
+  {
+    "id": "shape-encoding",
+    "name": "Shape Encoding",
+    "family": "Visual Encoding",
+    "type": "Encoding",
+    "description": "Encoding categorical identity through distinguishable symbol shapes.",
+    "designFeatures": ["Shape", "Orientation", "Filled state", "Legend"],
+    "tasks": ["Identify categories", "Locate symbols", "Compare groups"],
+    "contexts": ["Category count", "Symbol size", "Visual complexity"]
+  }
+]

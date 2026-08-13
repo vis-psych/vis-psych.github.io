@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VisPsych: an explorable knowledge space connecting visualization design with psychological mechanisms, effects, tasks, evidence and design implications.">
+  <title>VisPsych — Visualization Psychology</title>
+  <link rel="stylesheet" href="styles.css?v=26">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <a href="#" class="brand-mark" aria-label="VisPsych home">VP</a>
+      <div>
+        <div class="brand-name">VisPsych</div>
+        <div class="brand-subtitle">Visualization × Psychology</div>
+      </div>
+    </div>
+
+    <nav class="top-nav" aria-label="Primary">
+      <button class="nav-link active" data-section="overview">Overview matrix</button>
+      <button class="nav-link" data-section="cases">Visualization Cases</button>
+      <button class="nav-link" data-section="psychology">Psychology</button>
+      <button class="nav-link" data-section="gaps">Research gaps</button>
+      <button class="nav-link" data-section="about">About</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Visualization Psychology Knowledge Base</p>
+        <h1>How does visualization design engage human psychology?</h1>
+        <p class="hero-copy">
+          Explore relationships between visualization cases, design features, psychological mechanisms,
+          cognitive and behavioural effects, tasks, evidence and design implications.
+        </p>
+      </div>
+      <div class="hero-stats" aria-label="Knowledge base statistics">
+        <div class="stat"><strong id="stat-cases">0</strong><span>cases</span></div>
+        <div class="stat"><strong id="stat-concepts">0</strong><span>psychology concepts</span></div>
+        <div class="stat"><strong id="stat-relations">0</strong><span>relationships</span></div>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Explore controls">
+      <label class="search-box">
+        <span class="sr-only">Search</span>
+        <input id="search-input" type="search" placeholder="Search cases, psychology, design features…" autocomplete="off">
+      </label>
+
+      <div class="filter-row">
+        <label>
+          <span>Case family</span>
+          <select id="case-family-filter">
+            <option value="all">All case families</option>
+          </select>
+        </label>
+        <label>
+          <span>Psychology</span>
+          <select id="psych-family-filter">
+            <option value="all">All psychology</option>
+          </select>
+        </label>
+        <label>
+          <span>Evidence</span>
+          <select id="evidence-filter">
+            <option value="all">All evidence</option>
+            <option value="empirical">Empirical</option>
+            <option value="theoretical">Theoretical</option>
+            <option value="hypothesised">Hypothesised</option>
+          </select>
+        </label>
+        <button id="reset-filters" class="button secondary">Reset</button>
+      </div>
+
+      <div class="view-switch" role="group" aria-label="View">
+        <button class="view-button active" data-view="matrix">Matrix</button>
+        <button class="view-button" data-view="network">Network</button>
+      </div>
+    </section>
+
+    <section id="overview-section" class="workspace">
+      <div class="workspace-main">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Overview matrix</p>
+            <h2 id="view-title">Vis × Psychology matrix</h2>
+          </div>
+          <div class="legend" aria-label="Evidence legend">
+            <span><i class="dot empirical"></i> Empirical</span>
+            <span><i class="dot theoretical"></i> Theoretical</span>
+            <span><i class="dot hypothesised"></i> Hypothesised</span>
+          </div>
+        </div>
+
+        <div class="matrix-tools" aria-label="Matrix expansion controls">
+          <div><span>Rows</span><button id="expand-all-rows" class="compact-button">Expand all</button><button id="collapse-all-rows" class="compact-button">Collapse all</button></div>
+          <div><span>Columns</span><button id="expand-all-columns" class="compact-button">Expand all</button><button id="collapse-all-columns" class="compact-button">Collapse all</button></div>
+          <button id="focus-selected" class="compact-button focus-button" title="Show only the row and column families containing the current selection">Focus selected</button>
+          <button id="exit-focus" class="compact-button exit-focus-button hidden">Exit focus</button>
+          <output id="focus-indicator" class="focus-indicator hidden" aria-live="polite"></output>
+        </div>
+
+        <div id="matrix-view" class="matrix-container" aria-live="polite"></div>
+        <div id="network-view" class="network-container hidden" aria-live="polite"></div>
+
+        <p class="interaction-hint" id="interaction-hint">
+          Expand visualization families into case subrows and psychology families into concept subcolumns. Select a populated cell to open its relationship on a dedicated page.
+        </p>
+      </div>
+    </section>
+
+    <section id="cards-section" class="cards-section hidden">
+      <div class="section-heading">
+        <p class="eyebrow" id="cards-eyebrow">Browse</p>
+        <h2 id="cards-title">Visualization cases</h2>
+        <p id="cards-description">Select a case to inspect its psychological foundations.</p>
+      </div>
+      <div id="cards-grid" class="cards-grid"></div>
+    </section>
+
+    <section id="about-section" class="about-section hidden">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>VisPsych</h2>
+      </div>
+      <div class="about-grid">
+        <article>
+          <h3>Purpose</h3>
+          <p>
+            VisPsych is designed as a relationship-centred knowledge base: visualization design features engage
+            psychological mechanisms, which influence cognitive or behavioural effects, tasks and outcomes.
+          </p>
+        </article>
+        <article>
+          <h3>Ontology</h3>
+          <p>
+            Visualization case → design feature → psychological mechanism → effect → task/outcome → design implication,
+            qualified by evidence and context.
+          </p>
+        </article>
+        <article>
+          <h3>Psychology taxonomy</h3>
+          <p>
+            Concepts are organised into seven mechanism-oriented families: perception, attention, memory and learning,
+            cognition and mental representation, judgement and decision, emotion and affect, and social influence.
+            Semiotics, epistemology, Critical Theory, Actor–Network Theory and visual rhetoric are retained as adjacent
+            interpretive or sociotechnical lenses rather than labelled as psychological mechanisms.
+          </p>
+        </article>
+        <article>
+          <h3>What is a relationship?</h3>
+          <p>
+            A relationship describes how a visualization design feature may engage a psychological concept,
+            influence a perceptual, cognitive or behavioural outcome, and lead to a design implication,
+            supported or qualified by scholarly evidence.
+          </p>
+        </article>
+        <article>
+          <h3>Status</h3>
+          <p>
+            This prototype contains illustrative seed data. Replace or extend it with reviewed evidence before treating
+            relationship strengths or evidence status as scholarly claims.
+          </p>
+        </article>
+        <article>
+          <h3>Knowledge-model roadmap</h3>
+          <p>
+            Every relationship now has placeholders for reviewed papers, DOI, study type, participants,
+            visualization and task, findings, evidence strength and curator notes. Once populated, the platform can add
+            deeper nested concepts beneath the implemented expandable subcolumns, stable case URLs
+            such as /cases/text-similarity/, and richer interactive demonstrations within each case study.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>VisPsych</span>
+    <span>Visualization Psychology Platform</span>
+  </footer>
+
+  <script src="app.js?v=26"></script>
+</body>
+</html>

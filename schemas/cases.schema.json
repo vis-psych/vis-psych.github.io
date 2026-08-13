@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vis-psych.github.io/schemas/cases.schema.json",
+  "title": "VisPsych visualization cases",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "family", "type", "description", "designFeatures", "tasks", "contexts"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "name": { "type": "string", "minLength": 1 },
+      "family": { "type": "string", "minLength": 1 },
+      "type": { "type": "string", "minLength": 1 },
+      "description": { "type": "string", "minLength": 1 },
+      "designFeatures": { "type": "array", "items": { "type": "string" } },
+      "tasks": { "type": "array", "items": { "type": "string" } },
+      "contexts": { "type": "array", "items": { "type": "string" } }
+    },
+    "additionalProperties": true
+  }
+}

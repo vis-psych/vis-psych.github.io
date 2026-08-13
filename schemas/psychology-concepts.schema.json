@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vis-psych.github.io/schemas/psychology-concepts.schema.json",
+  "title": "VisPsych psychological concepts",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "family", "definition"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "name": { "type": "string", "minLength": 1 },
+      "family": { "type": "string", "minLength": 1 },
+      "definition": { "type": "string", "minLength": 1 }
+    },
+    "additionalProperties": true
+  }
+}

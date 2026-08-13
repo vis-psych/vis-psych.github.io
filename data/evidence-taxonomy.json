@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "mockDataWarning": "All current assessments are interface demonstrations and require scholarly review.",
+  "claimBasis": {
+    "direct-visualization-evidence": "Studies directly examine the visualization case, design feature, task or closely matching outcome.",
+    "psychology-transfer": "The claim transfers evidence from a psychological phenomenon not yet directly validated in the visualization context.",
+    "theoretical-interpretation": "The relationship is justified mainly through theory or conceptual interpretation.",
+    "curator-hypothesis": "The relationship is proposed by a curator as a candidate for investigation."
+  },
+  "relationshipConfidence": {
+    "high": "Converging, directly applicable and methodologically credible evidence.",
+    "moderate": "Relevant evidence exists but has limitations, indirectness or incomplete replication.",
+    "low": "Evidence is sparse, indirect, preliminary or strongly context-dependent.",
+    "unassessed": "The relationship has not yet received a structured confidence assessment."
+  },
+  "synthesisStatus": {
+    "consistent": "The reviewed records broadly support the same conclusion.",
+    "mixed": "The reviewed records show different effects across studies or conditions.",
+    "limited": "Too few or too indirect records are available for a firm synthesis.",
+    "conflicting": "Comparable reviewed records support opposing conclusions.",
+    "no-reviewed-evidence": "No verified scholarly record has been reviewed for this relationship."
+  },
+  "applicability": {
+    "direct": "Evidence closely matches the visualization, task and outcome.",
+    "indirect": "Evidence informs the relationship through an adjacent construct or context.",
+    "context-dependent": "Applicability depends strongly on task, population, dataset or design conditions.",
+    "unassessed": "Applicability has not yet been assessed."
+  },
+  "recordVerification": {
+    "verified": "Bibliographic and study details have been checked against the source.",
+    "partially-verified": "Some bibliographic or methodological fields remain unchecked.",
+    "mock-unverified": "The record is invented demonstration data and is not scholarly evidence."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vis-psych.github.io/schemas/relationships.schema.json",
+  "title": "VisPsych relationships",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "caseId", "conceptId", "evidenceStatus", "illustrativeStrength", "designFeature", "effect", "task", "outcome", "designImplication", "evidenceRecordIds", "evidenceAssessment"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*--[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "caseId": { "type": "string" },
+      "conceptId": { "type": "string" },
+      "evidenceStatus": { "enum": ["empirical", "theoretical", "hypothesised"] },
+      "illustrativeStrength": { "type": "integer", "minimum": 1, "maximum": 3 },
+      "evidenceRecordIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+      "evidenceAssessment": {
+        "type": "object",
+        "required": ["claimBasis", "relationshipConfidence", "synthesisStatus", "applicability", "reviewSummary"]
+      }
+    },
+    "additionalProperties": true
+  }
+}

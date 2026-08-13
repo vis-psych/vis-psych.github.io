@@ -1,0 +1,41 @@
+{
+  "psychologyFamilies": [
+    {
+      "id": "perception",
+      "name": "Perception"
+    },
+    {
+      "id": "attention",
+      "name": "Attention"
+    },
+    {
+      "id": "memory",
+      "name": "Memory & Learning"
+    },
+    {
+      "id": "cognition",
+      "name": "Cognition & Mental Representation"
+    },
+    {
+      "id": "judgement",
+      "name": "Judgement & Decision"
+    },
+    {
+      "id": "affect",
+      "name": "Emotion & Affect"
+    },
+    {
+      "id": "social-influence",
+      "name": "Social Influence & Persuasion"
+    }
+  ],
+  "evidenceStatuses": [
+    "empirical",
+    "theoretical",
+    "hypothesised"
+  ],
+  "adjacentLenses": {
+    "interpretive": ["Semiotics", "Epistemology / Philosophy of Knowledge", "Critical Theory"],
+    "sociotechnical": ["Actor–Network Theory", "Visual Rhetoric"]
+  }
+}
